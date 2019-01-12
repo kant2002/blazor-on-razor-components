@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\rzr.App\rzr.App.csproj" />
+  </ItemGroup>
+
+  <!-- TODO: Remove this block once it's included in the shared framework -->
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore" Version="$(AspNetCoreVervion)" />
+    <PackageReference Include="Microsoft.AspNetCore.ResponseCompression" Version="$(AspNetCoreVervion)" />
+    <!--<PackageReference Include="Microsoft.AspNetCore.SignalR" Version="$(AspNetCoreVervion)" />-->
+    <PackageReference Include="Microsoft.AspNetCore.Components.Server" Version="$(AspNetCoreVervion)" />
+  </ItemGroup>
+
+</Project>

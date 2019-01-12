@@ -1,0 +1,7 @@
+<Project>
+	<PropertyGroup>
+
+    <BlazorVersion>0.8.0-preview-19060-0310</BlazorVersion>
+    <AspNetCoreVervion>3.0.0-preview-19060-0310</AspNetCoreVervion>
+	</PropertyGroup>
+</Project>
